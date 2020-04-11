@@ -72,7 +72,6 @@ public class Main {
             }
         }, "1", 1 << 23).start();
     }
-
     public static void update(String id, String newValue) throws SQLException {
         String sql = String.format("UPDATE students SET score = %s where id = %s", newValue, id);
         stmt.executeUpdate(sql);
