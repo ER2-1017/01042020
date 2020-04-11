@@ -54,8 +54,6 @@ public class Main {
         System.out.println("Количество элементов: " + this.size);
         System.out.println("Удалено: " + (array.length - this.size));
     }
-
-
     public static void main(String[] args) throws SQLException {
 
         new Thread(null, new Runnable() {
